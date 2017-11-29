@@ -1,0 +1,431 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Kanit", sans-serif;
+}
+body
+{  margin: 0;  }
+
+h1{ 
+	font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    font-size: 150%;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    letter-spacing: -1px;
+    text-shadow: 10px 10px 40px rgba(0,0,0,0.9);
+	font-weight: bold;
+}
+h2{ 
+	font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    font-size: 100%;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    letter-spacing: -1px;
+    text-shadow: 1px 2px 27px rgba(0,0,0,0.73);
+	font-weight: bold;
+}
+img{
+	width:100%;
+}
+
+.animatie {
+
+	width:100%;
+	font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 55px;
+    text-transform: uppercase;
+    line-height: 50px;
+    letter-spacing: -1px;
+	padding-bottom: 10px;
+	text-align:center;
+	
+	position: relative;
+    -webkit-animation: mymove 5s 6; 
+    animation: mymove 5s 6;
+	
+	-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 10%;}
+}
+
+.dropbtn {
+    background-color: #1e1d2b;
+    background-size: 100%;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+	text-align: center;
+    width: 100%;
+	display:block;
+	background-position: 0 0;
+}
+
+.dropdown {
+   
+	text-align: center;
+    width: 100%;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1e1d2b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+	display:block;
+	
+}
+
+.dropdown-content a:hover {background-color: #000}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #000;
+}
+
+
+.header {
+  background-color: #fff;
+  color: #000;
+  padding:30px;
+
+}
+
+.logo {
+    background-color: #fff;
+    -ms-transform: skew(-15deg,0deg);
+    -webkit-transform: skew(-15deg,0deg);
+    transform: skew(-15deg,0deg);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.4);
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    left: 20px;
+    top: 0;
+}
+
+.logo a{
+    font-size: 100%;
+	display: block;
+    width: 100%;
+    height: 75px;
+    background: url(images/logo2.png) no-repeat;
+    background-position: center;
+    transform: skew(15deg,0deg);
+	background-size: 110px;
+}
+
+.separator{
+	width:100%;
+	height:19px;
+}
+
+.divider {
+    background: url(images/divider2.png) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 75px;
+	background-color:#000;
+}
+
+.home{
+    background:url(images/bck3.jpg) no-repeat center center;
+	background-size:cover;
+	color:#fff;
+	
+}
+.home img{
+	
+	display: block;
+    margin: 0 auto;
+	width:100%;
+}
+
+.buton{
+    text-align: center;
+    width: 100%;
+}
+.buton a{
+	color: #fff;
+    display: block;
+    margin: 0 auto;
+    width: 218px;
+    height: 43px;
+    padding-top: 10px;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    background-position: 0 0;
+    background: url(images/blue-btn.png) no-repeat;
+    background-size: 100%;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: -30px;
+	display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Kanit', sans-serif;
+	text-align:right;
+}
+.menu li {
+	text-align:right;
+	color: #4d4e4c;
+	
+}
+.menu li a{
+	color: #4d4e4c;
+    text-decoration: none;
+    min-width: 110px;
+    display: inline-block;
+}
+
+.menu li a:hover {
+
+    color:#fff;
+	background-image:url(images/menu-background.png);
+	background-size:cover;
+	background-position:center;
+	width:50px;
+}
+
+.continut{
+	width:100%;
+	float: left;
+    padding: 15px;
+	background-color:#000;
+}
+.servicii{
+	width:100%;
+	float: left;
+    padding: 15px;
+	background-color:#000;
+}
+.servicii img{
+	
+	display: block;
+    margin: 0 auto;
+	width:60%;
+}
+
+.servicii h1{
+	font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    font-size: 130%;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    letter-spacing: -1px;
+    text-shadow: 1px 2px 27px rgba(0,0,0,0.73);
+	font-weight: bold;
+
+}
+
+.detalii{
+	background:url(images/detalii.jpg) no-repeat;
+	background-position: left center;
+	background-size: cover;
+	width:100%;
+	float: right;
+    padding: 15px;
+	background-color:#000;
+}
+.detalii h1{
+	width:98%;
+	margin-left:3%;
+	text-align:left;
+}
+.detalii h2{
+	width:98%;
+	font-size:180%;
+	font-weight:lighter;
+	margin-left:3%;
+	text-align:left;
+}
+.detalii h3{ 
+	font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    font-size: 120%;
+    width: 98%;
+    text-align: center;
+    color: #fff;
+    letter-spacing: -1px;
+    text-shadow: 1px 2px 27px rgba(0,0,0,0.73);
+	font-weight: lighter;
+	margin-left:3%;
+	text-align:left;
+}
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+ 
+	width:100%;
+	float: left;
+	background: #0f1b2a;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    height: auto;
+	
+}
+.aside_right{
+	float: right;
+    background: none;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    padding-left: 1%;
+    background-color: #1e1d2b;
+	float:right;
+}
+.aside_left{
+	
+	width:100%;
+	
+}
+.aside_right .title{
+	font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 50px;
+    letter-spacing: -1px;
+	padding-top: 2px;
+	text-align:center;
+
+}
+.aside_right .call{
+	font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 55px;
+    text-transform: uppercase;
+    line-height: 50px;
+    letter-spacing: -1px;
+	padding-bottom: 10px;
+	text-align:center;
+}
+
+.aside_left .title{
+	font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+	text-transform: uppercase;
+	font-size: 21px;
+    line-height: 24px;
+    text-align: center;
+	padding-top: 60px;
+}
+
+.bottom {
+    background: #000710;
+    padding: 15px 0;
+    width: 100%;
+	height:auto;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    background-color: transparent;
+}
+.copy {
+    font-size: 11px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 0;
+	padding-left:2%;
+}
+/* For mobile phones: */
+}
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+	.home{padding:15%;}
+	.logo img{ width:170px; height:116px;}
+	.menu li {font-size:100%;}
+	.servicii{ width:50%;}
+	.servicii img{width:35%;}
+	h1{font-size:250%;}
+	.detalii h1{width:70%;}
+	.detalii h1{width:70%;}
+	.detalii h2{width:65%;}
+	.detalii h3{width:50%;}
+	.home img{width:30%;}
+	.logo {width:270px; height:140px; left:50px;}
+	.logo a{height:135px;background-size: 226px;}
+	.menu ul {margin:20px; font-size:20px;}
+	.menu li{display: inline-block; text-align:center;}
+	.menu li a{padding:8px 15px;}
+	.menu li a:hover{width:200px;}
+	.aside_right{ background: url(images/emergency-background.png) no-repeat;width: 48%;}
+	.aside_left{width:48%;}
+	.aside_left .title{padding-top:0.1px;font-size: 20px;}
+}
+@media only screen and (min-width: 1280px) {
+    /* For desktop: */
+	.home{padding:11%;}
+	.logo img{ width:170px; height:116px;}
+	.menu li {font-size:100%;}
+	.servicii{ width:33.33%;}
+	.servicii img{width:45%;}
+	h1{font-size:250%;}
+	.detalii h1{width:70%;}
+	.detalii h2{width:65%;}
+	.detalii h3{width:50%;}
+	.home img{width:30%;}
+	.logo {width:270px; height:140px; left:50px;}
+	.logo a{height:135px;background-size: 226px;}
+	.menu ul {margin-top:1px; font-size:20px;}
+	.menu li{display: inline-block; text-align:center;}
+	.menu li a{padding:8px 15px;}
+	.menu li a:hover{width:200px;}
+	.aside_right{ background: url(images/emergency-background.png) no-repeat;width: 48%;}
+	.aside_left{width:48%;}
+	.aside_left .title{padding-top:1px;font-size: 40px;}
+
+}
