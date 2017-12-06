@@ -240,7 +240,7 @@ img{
 	
 	display: block;
     margin: 0 auto;
-	width:60%;
+	width:30%;
 }
 
 .servicii h1{
@@ -389,7 +389,7 @@ img{
 	.logo img{ width:170px; height:116px;}
 	.menu li {font-size:100%;}
 	.servicii{ width:50%;}
-	.servicii img{width:35%;}
+	.servicii img{width:35px;}
 	h1{font-size:250%;}
 	.detalii h1{width:70%;}
 	.detalii h1{width:70%;}
@@ -427,5 +427,12 @@ img{
 	.aside_right{ background: url(images/emergency-background.png) no-repeat;width: 48%;}
 	.aside_left{width:48%;}
 	.aside_left .title{padding-top:1px;font-size: 40px;}
+
+}
+
+@media only screen and (max-width:768px) {
+    /* For mobile phones: */
+    .dropdown {width:100%;}
+	.servicii img{width:60%;}
 
 }
