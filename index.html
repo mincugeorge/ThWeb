@@ -10,6 +10,7 @@
 </head>
 <body>
 
+<section>
 <div class="header ">
 		<div class="logo">
 		<a href="#acasa" title="Acasa"></a>
@@ -27,13 +28,13 @@
 
 <div id="acasa" class="home">
 
-	  <h1>"UN APEL REZOLVA TOT"</h1>
+	  <h1>UN APEL REZOLVA TOT</h1>
 	  <h1>AI NEVOIE DE AJUTOR?</h1>
 	  <h1>ASISTENTA & TRACTARI AUTO NON STOP</h1>
 	  <br>
 	
 	<div class="dropdown">
-  <button class="dropbtn">MAI MULTE</button>
+  <button class="dropbtn" id="buton">MAI MULTE</button>
   <div class="dropdown-content">
     <a href="#despre">DESPRE</a>
     <a href="#servicii">SERVICII</a>
@@ -44,7 +45,9 @@
 </div>
 
   <div class="divider">&nbsp;</div>
-  
+</section> 
+ 
+ <article>
 <div id="servicii" class="continut">
   <h1>CAUTI ASISTENTA IN BUCURESTI?</h1>
 		
@@ -96,13 +99,15 @@
 	</h3>
 	<h3>Cu un telefon poti rezolva tot.</h3>
  </div>
+ </article> 
   
-  
+<footer>  
 <div class="footer">
 <div class="aside_right">
-		<div class="title">Asistenrta Rutiera NON-STOP
+		<div class="title">Asistenta Rutiera NON-STOP
 		</div>
-		<div id="contact" class="call">0724111234
+		<div id="contact" class="call">
+		<button id="contactare">0724111234</button>
 		</div>
 	</div>
 	<br>
@@ -116,16 +121,45 @@
 
 </div>	
 <div class="footer">
-<div class="bottom">
-	<div class="container">
-		<div class="copy">Copyright 2017 - AsistentaAuto.ro - </div>
+	<div class="formular" id="formular">
+		<input type="text" name="nume" id="formNume" placeholder="Nume" required>
+		<input type="text" name="prenume" id="formPrenume" placeholder="Prenume">
+		<input type="text" name="telefon" id="formTelefon" placeholder="Telefon">
+		<input type="text" name="descriere" id="formDescriere" placeholder="Descriere">
+		<button type="button" id="sendButton" disabled>Trimite</button>
+		
 	</div>
 	
+	
+		<input type="text" name="localitate" id="form2Oras" placeholder="Localitate">
+		<input type="text" name="telefon" id="form2Telefon" placeholder="Telefon">
+		<button type="button" id="updateButton" disabled>Update</button>
+		<br><br>
+		<span>Numere de contact:</span>
+		<br><br>
+		
+		<div id="list">
+		</div>
+	<div>
+<div class="bottom">
+	<div class="container">
+		<div class="copy" id="copyrights">
+		
+		<p id="copyright">Aici se vor adauga copyrights</p>
+		</div>
+		
+	</div>
+	<p id="numere"></p>
+	
+	
 </div>
-</div>
+</footer>
 
-
-
+<script src="assets/edit.button.js"></script>
+<script src="assets/number.click.js"></script>
+<script src="assets/text.edit.js"></script>
+<script src="assets/number.options.js"></script>
+<script src="assets/script.js"></script>
 
 </body>
 </html>

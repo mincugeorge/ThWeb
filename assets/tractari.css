@@ -99,16 +99,18 @@ img{
 	
 }
 
+/*  
 .dropdown-content a:hover {background-color: #000}
+*/
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+/*
 .dropdown:hover .dropbtn {
     background-color: #000;
 }
-
+*/
 
 .header {
   background-color: #fff;
@@ -305,12 +307,50 @@ img{
 	width:100%;
 	float: left;
 	background: #0f1b2a;
-    width: 100%;
     text-align: left;
     color: #fff;
     height: auto;
 	
 }
+span{
+	font-family: 'Kanit', sans-serif;
+    font-style: italic;	
+}
+
+.footer .formular{
+	width:100%;
+	height:auto;
+
+}
+
+
+.footer .formular input{
+    font-style: italic;
+    font-size: 120%;
+    width: 50%;
+    text-align: center;
+    color: black;
+    letter-spacing: -1px;
+	font-weight: lighter;
+	margin-left:25%;
+	margin-bottom:20px;
+
+	
+}
+
+.footer .formular button{
+	font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    font-size: 120%;
+    width: 20%;
+    color: black;
+    letter-spacing: -1px;
+	font-weight: lighter;
+	margin-left:40%;
+    margin-bottom:1%;
+	
+}
+
 .aside_right{
 	float: right;
     background: none;
@@ -338,7 +378,7 @@ img{
 	text-align:center;
 
 }
-.aside_right .call{
+.aside_right .call button{
 	font-family: 'Kanit', sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -348,6 +388,9 @@ img{
     letter-spacing: -1px;
 	padding-bottom: 10px;
 	text-align:center;
+	color:white;
+	background-color:#0f1b2a;
+	margin-left:30%;
 }
 
 .aside_left .title{

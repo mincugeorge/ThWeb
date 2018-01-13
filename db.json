@@ -1,0 +1,40 @@
+{
+  "formular": [
+    {
+      "id": 1,
+      "nume": "Mincu",
+      "prenume": "George",
+      "telefon": "0724111594",
+      "descriere": "Roata sparta"
+    },
+    {
+      "nume": "a",
+      "prenume": "b",
+      "telefon": "1",
+      "descriere": "c",
+      "id": 2
+    }
+  ],
+  "telefon": [
+    {
+      "oras": "Giurgiu",
+      "numar": "0729364756",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "oras": "Pitesti",
+      "numar": "0729923348"
+    },
+    {
+      "id": 4,
+      "oras": "Brasov",
+      "numar": "0729927923"
+    },
+	{
+      "oras": "Alexandria",
+      "numar": "0729364092",
+      "id": 7
+    }
+  ]
+}
